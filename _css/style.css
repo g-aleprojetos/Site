@@ -1,0 +1,118 @@
+:root{
+    --blueberry: #ACD9EE;
+    --appleCore: #dcc7aa;
+    --citrus: #f7c331;
+    --apricot: #f7882f;  
+    --black: #000;
+    --white: #fff;
+    --red:#E50914;
+    --gray:#aaa;
+    --grain: #d7cec7;
+    --backboard: #565656;
+    --oxblood: #76323f;
+    --tan: #c09f80;
+    
+    --body:var(--grain);
+    --header:var(--white);
+    --headerNome:var(--gray);
+    --headerNavA:var(--gray);
+    --haederNavAHover:var(--black);
+    --buttonBackgroudColor:var(--grain);
+    --buttonColor:var(--black);
+    --buttonHover: rgba(114, 114, 114, 0.5);
+    --footerBackgroud: var(--grain);
+    --footerColor:var(--black);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--body);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: var(--white);
+ }
+
+ header{
+    background-color: var(--header);
+ }
+
+ header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header .Logo{
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+
+}
+
+header .Nome{
+    margin-left: 5px;
+    color: var(--headerNome);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--headerNavA);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--haederNavAHover);
+}
+
+.margin{
+    
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.parceiros .col-lg-3{
+    text-align: center;
+        
+}
+
+.but-margin{
+    margin-top: 10px;
+}
+
+.escolas{
+    padding-top: 15%;
+    padding-bottom: 16%;
+}
+
+.button{
+    background-color: var(--buttonBackgroudColor);
+    border: none;
+
+    cursor: pointer;
+    transition: .5s ease all;
+    color: var(--buttonColor);
+}
+
+.button:hover{
+    background-color:var(--buttonHover);
+    
+}
+.bg-footer{
+    background-color:var(--footerBackgroud);
+    color: var(--footerColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
