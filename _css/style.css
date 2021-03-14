@@ -29,13 +29,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* pagina index */
 body{
     background: var(--body);
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: var(--white);
  }
-
+/* cabeçalho universal */
  header{
     background-color: var(--header);
  }
@@ -71,19 +71,10 @@ header nav a:hover{
     color: var(--haederNavAHover);
 }
 
-.margin{
-    
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-
-.parceiros .col-lg-3{
-    text-align: center;
-        
-}
-
+/* continuação index*/
 .but-margin{
-    margin-top: 10px;
+    margin-top: 20px;
+    
 }
 
 .escolas{
@@ -91,25 +82,50 @@ header nav a:hover{
     padding-bottom: 16%;
 }
 
+
+
 .button{
     background-color: var(--buttonBackgroudColor);
     border: none;
-
+  
     cursor: pointer;
     transition: .5s ease all;
-    color: var(--buttonColor);
-}
+   
+ }
 
-.button:hover{
+ .button:hover{
     background-color:var(--buttonHover);
     
 }
+
+.escolas .container a{
+    text-decoration: none;
+    color: var(--buttonColor);
+    font-family:  Impact, fantasy;
+   font-size: 18px;
+}
+
+
 .bg-footer{
     background-color:var(--footerBackgroud);
     color: var(--footerColor);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* pagina digital innovation*/
+.digital-innovation .container a{
+    text-decoration: none;
+    color: var(--buttonColor);
+    font-family: Impact, fantasy;
+    font-size: 20px;
+   
+}
+
+.digital-innovation{
+    padding-top: 15%;
+    padding-bottom: 16%;
+}
 
 
 
