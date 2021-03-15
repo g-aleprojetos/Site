@@ -22,6 +22,8 @@
     --buttonHover: rgba(114, 114, 114, 0.5);
     --footerBackgroud: var(--grain);
     --footerColor:var(--black);
+    /*pag everis*/
+    --everisColor:var(--black);
 }
 
 *{
@@ -102,7 +104,7 @@ header nav a:hover{
     text-decoration: none;
     color: var(--buttonColor);
     font-family:  Impact, fantasy;
-   font-size: 18px;
+    font-size: 18px;
 }
 
 
@@ -126,6 +128,38 @@ header nav a:hover{
     padding-top: 15%;
     padding-bottom: 16%;
 }
+
+/*everis Kotlin Developer*/
+
+.everis{
+    padding-top: 1%;
+    color: var(--everisColor);
+    font-size: 20px;
+    font-family: Impact, fantasy;
+}
+
+.margin-everis{
+    margin-top: 5%;
+}
+
+
+.everis .container a{
+    text-decoration: none;
+    color: var(--buttonColor);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/* em construção*/
+.contrucao{
+    padding-top: 5%;
+}
+
+
+
+
+
+
 
 
 
